@@ -8,11 +8,6 @@ body {
 	margin: 0
 }
 
-.header_img{
-    position: absolute;
-    margin-bottom: 270px;
-}
-
 #p-justify {
 	text-align: justify;
    	text-justify: inter-word;
@@ -6864,3 +6859,18 @@ a:hover {
   width:70%;
   height: 70%
 }
+
+
+@media (min-width:768px) {
+	.header_img{
+		position: absolute;
+		margin-bottom: 270px;
+		}
+	}
+	
+	@media (min-width:1px) and (max-width:767px) {
+		.header_img{
+			position: absolute;
+			margin-bottom: 100px;
+			}
+	}
