@@ -9,7 +9,7 @@ function splitScroll(){
 
   })
   .setPin('.about-title')
-  .addIndicators()
+  //.addIndicators()
   .addTo(controller);
 }
 
@@ -27,7 +27,7 @@ function splitScrollResume(){
 
   })
   .setPin('.resume-title')
-  .addIndicators()
+  //.addIndicators()
   .addTo(controller);
 }
 
@@ -45,7 +45,7 @@ function splitScrollStory(){
 
   })
   .setPin('.story-title')
-  .addIndicators()
+  //.addIndicators()
   .addTo(controller);
 }
 
@@ -87,7 +87,7 @@ const scene = new ScrollMagic.Scene({
   triggerHook: 0
 })
 .setTween(tween)
-.addIndicators()
+//.addIndicators()
 .setPin('.animation')
 .addTo(controller);
 
