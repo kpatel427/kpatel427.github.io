@@ -4,7 +4,6 @@
 .container {
   width: 100%;
   height: 100vh;
-  /* background: #0b1a2e; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,11 +212,11 @@
   }
 }
 
+
+
 @media (min-width:768px) {
 .footer_txt {
   font-family: 'Gamja Flower', cursive;
-/* font-family: 'Just Another Hand', cursive;
-font-family: 'League Script', cursive; */
   position: fixed;
   left: 0;
   bottom: 0;
